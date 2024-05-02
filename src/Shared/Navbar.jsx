@@ -60,9 +60,16 @@ const Navbar = () => {
                 <a>Search</a>
               </li>
             </Link>
-            <li className="text-4xl">
-              <a>Services</a>
-            </li>
+            <Link to="/about">
+              <li className="text-4xl">
+                <a>About</a>
+              </li>
+            </Link>
+            <Link>
+              <li className="text-4xl">
+                <a>Services</a>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="navbar-center hidden lg:flex">

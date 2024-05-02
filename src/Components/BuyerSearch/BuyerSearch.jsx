@@ -24,6 +24,7 @@ const BuyerSearch = () => {
       <div>
         <h2 className="text-2xl font-bold">400 results for rental property</h2>
       </div>
+
       <Card></Card>
       <Loan></Loan>
       <Testimonials></Testimonials>

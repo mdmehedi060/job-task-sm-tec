@@ -1,4 +1,5 @@
 import Banner from "./BuyerBanner";
+import NewProperties from "./NewProperties";
 import PopularProperties from "./PopularProperties";
 
 const Buyer = () => {
@@ -6,6 +7,7 @@ const Buyer = () => {
     <div>
       <Banner></Banner>
       <PopularProperties></PopularProperties>
+      <NewProperties></NewProperties>
     </div>
   );
 };

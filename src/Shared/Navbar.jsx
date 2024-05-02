@@ -36,6 +36,11 @@ const Navbar = () => {
                   <a>Buy</a>
                 </li>
               </Link>
+              <Link to="/search">
+                <li className="text-4xl">
+                  <a>Search</a>
+                </li>
+              </Link>
               <li className="text-4xl">
                 <a>Services</a>
               </li>
@@ -48,6 +53,11 @@ const Navbar = () => {
             <Link to="/buyer">
               <li className="text-4xl">
                 <a>Buy</a>
+              </li>
+            </Link>
+            <Link to="/search">
+              <li className="text-4xl">
+                <a>Search</a>
               </li>
             </Link>
             <li className="text-4xl">
